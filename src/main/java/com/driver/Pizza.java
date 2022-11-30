@@ -44,10 +44,10 @@ public class Pizza {
         if(isExtraToppingsAdded==false) {
             if (this.isVeg == true) {
                 this.price += 70;
-                this.bill += "Extra Toppings For Veg Pizza = 70\n";
+                this.bill += "Extra Toppings Added: 70\n";
             } else {
                 this.price += 120;
-                this.bill += "Extra Toppings For Non-veg Pizza = 120\n";
+                this.bill += "Extra Toppings Added: 120\n";
             }
             isExtraToppingsAdded=true;
         }
@@ -57,7 +57,7 @@ public class Pizza {
         // your code goes here
         if(isTakeawayAdded==false) {
             this.price += 20;
-            this.bill += "Paper bag Price = 20\n";
+            this.bill += "Paperbag Added: 20\n";
             isTakeawayAdded=true;
         }
     }
